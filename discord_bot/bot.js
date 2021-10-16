@@ -1,7 +1,7 @@
 import DiscordJS, { Intents } from 'discord.js'
 import dotenv from 'dotenv'
-import dm from 'dm.js'
 dotenv.config()
+
 
 const client = new DiscordJS.Client({
   intents: [
